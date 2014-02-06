@@ -1,0 +1,6 @@
+[config]
+base = osv-base
+cmdline = /tools/hello.so
+
+[manifest]
+/tools/hello.so = hello.so 

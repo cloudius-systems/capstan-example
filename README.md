@@ -9,10 +9,10 @@ You first need to install Capstan.
 You then need to bootstrap the OSv base image in the ``osv.git`` repository:
 
 ```
-$ export CAPSTAN_REPO=$HOME/.capstan/repository
-$ mkdir -p $CAPSTAN_REPO
 $ make image=empty
-$ cp build/release/usr.img $CAPSTAN_REPO/osv-base
+$ export CAPSTAN_REPO=$HOME/.capstan/repository
+$ mkdir -p $CAPSTAN_REPO/osv-base
+$ cp build/release/usr.img $CAPSTAN_REPO/osv-base/osv-base
 ```
 
 To verify that the base image is installed correctly:

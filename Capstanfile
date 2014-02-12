@@ -3,9 +3,9 @@
 # This work is open source software, licensed under the terms of the
 # BSD license as described in the LICENSE file in the top-level directory.
 
-[config]
-base = osv-base
-cmdline = /tools/hello.so
+base: osv-base
 
-[manifest]
-/tools/hello.so = hello.so 
+cmdline: /tools/hello.so
+
+files:
+  /tools/hello.so: hello.so

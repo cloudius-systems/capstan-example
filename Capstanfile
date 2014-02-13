@@ -7,5 +7,7 @@ base: penberg/osv-base
 
 cmdline: /tools/hello.so
 
+build: make
+
 files:
   /tools/hello.so: hello.so

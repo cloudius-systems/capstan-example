@@ -8,17 +8,13 @@ Install Capstan on your machine.
 
 ## Usage
 
-First build the application:
-
-```
-$ make
-```
-
-Then build a Capstan image of it:
+First build a Capstan image of it:
 
 ```
 $ capstan build hello
 ```
+
+Capstan will invoke ``make`` automatically.
 
 Finally, launch the application under a VM:
 

@@ -12,7 +12,7 @@ To start the example application under QEMU and OSv, type:
 
 
 ```
-$ capstan run hello
+$ capstan run
 ```
 
 This makes Capstan automatically pull the base image, invoke ``make``, and

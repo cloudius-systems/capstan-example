@@ -5,10 +5,9 @@
  * BSD license as described in the LICENSE file in the top-level directory.
  */
 
-#include <stdio.h>
+#include <iostream>
 
 int main()
 {
-	printf("HELLO WORLD\n");
-	return 0;
+    std::cout << "Hello, world!" << std::endl;
 }

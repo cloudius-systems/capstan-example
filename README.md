@@ -8,16 +8,12 @@ Install Capstan on your machine.
 
 ## Usage
 
-First build a Capstan image of it:
+To start the example application under QEMU and OSv, type:
 
-```
-$ capstan build hello
-```
-
-Capstan will invoke ``make`` automatically.
-
-Finally, launch the application under a VM:
 
 ```
 $ capstan run hello
 ```
+
+This makes Capstan automatically pull the base image, invoke ``make``, and
+launche the built image under QEMU.

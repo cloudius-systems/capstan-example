@@ -1,19 +1,28 @@
-# Capstan Example C Application
+# Capstan Example
 
-This is an example Capstan C application.
+This is a "hello world" C++ application that shows how to use Capstan to
+package and run native applications on OSv.
 
 ## Prerequisites
 
-Install Capstan on your machine.
+You need to have [Capstan](https://github.com/cloudius-systems/capstan)
+installed on your computer.
 
 ## Usage
 
-To start the example application under QEMU and OSv, type:
-
+To build and launch the example application under QEMU, type:
 
 ```
 $ capstan run
 ```
 
-This makes Capstan automatically pull the base image, invoke ``make``, and
-launche the built image under QEMU.
+This makes Capstan automatically pull a base image, invoke ``make`` to
+build the software, build an image, and finally launch the application
+under QEMU.
+
+The ``run`` command will never overwrite the created image.  If you make
+changes to the application, you need rebuild the image with:
+
+```
+$ capstan build
+```

@@ -26,3 +26,9 @@ changes to the application, you need rebuild the image with:
 ```
 $ capstan build
 ```
+
+You can also launch the example application under VirtualBox with:
+
+```
+$ capstan run -p vbox
+```

@@ -5,9 +5,9 @@
 
 #
 # Name of the base image.  Capstan will download this automatically from
-# Github.
+# Capstan repository. 
 #
-base: penberg/osv-base
+base: cloudius/osv-base
 
 #
 # The command line passed to OSv to start up the application.
